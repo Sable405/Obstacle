@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a80243c73f3d18e489683a504aedce47
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Take Coffee
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1cfb07ad2f5021445b56a60c351d49cb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
