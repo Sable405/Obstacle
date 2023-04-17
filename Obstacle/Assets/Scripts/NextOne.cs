@@ -15,4 +15,20 @@ public class NextOne : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+            public void Next6()
+    {
+        SceneManager.LoadScene(3);
+    }
+            public void Next7()
+    {
+        SceneManager.LoadScene(4);
+    }
+                public void Startt()
+    {
+        SceneManager.LoadScene(5);
+    }
+                    public void Info()
+    {
+        SceneManager.LoadScene(6);
+    }
 }

@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Scorer : MonoBehaviour
 {
     public int minValue = 0; 
    public int maxValue = 5;
 
-   public GameObject GameOverScreen;
+   //public GameObject GameOverScreen;
 
    public GameObject DONE;
 
     [SerializeField] public TextMeshProUGUI Health;
-    [SerializeField] private int _hits = 7;
+    [SerializeField] private int _hits = 5;
 
   
    //   void OnCollisionEnter(Collision other)
@@ -36,11 +38,14 @@ public class Scorer : MonoBehaviour
 
         if(_hits <= 0)
         {
-            GameOverScreen.gameObject.SetActive(true);
+            //GameOverScreen.gameObject.SetActive(true);
+            SceneManager.LoadScene(2);
+            Cursor.lockState = CursorLockMode.None;
         }
         
                 if(other.gameObject.CompareTag("FIN"))
                 {
+                Cursor.lockState = CursorLockMode.None;
                 DONE.gameObject.SetActive(true);
                 }
  

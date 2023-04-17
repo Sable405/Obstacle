@@ -1101,6 +1101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded6c9c6238b32840a36ca1da37c149d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn: {x: 0, y: 0}
+  sensitivity: 0.5
+  deltaMove: {x: 0, y: 0, z: 0}
+  speed: 1
+  mover: {fileID: 0}
   _moveSpeed: 10
 --- !u!4 &170430001 stripped
 Transform:
